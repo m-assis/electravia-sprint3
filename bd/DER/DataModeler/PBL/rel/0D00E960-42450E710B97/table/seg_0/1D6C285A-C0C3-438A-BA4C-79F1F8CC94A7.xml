@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D6C285A-C0C3-438A-BA4C-79F1F8CC94A7" name="possuir">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<ownerDesignName>PBL</ownerDesignName>
+<ordsAlias>possuir</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario_id_usuario" id="90D04CDF-0A02-FF94-5A9E-E327ED3148E5">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F21A4A0E-A30E-474E-87B9-E86245933699" referredColumn="6567C199-00A1-F349-EFD2-8DD40667700D"/>
+</associations>
+</Column>
+<Column name="veiculo_id_veiculo" id="CFC6C9AC-FE51-C669-499C-593974F5882F">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6B6E5D3-C3C3-91F6-0CA3-BDD32F517A4A" referredColumn="63EFEFB3-DAE5-5528-F0D8-6A0B817F2EC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D986E0FA-750C-4CEB-EAD6-EDEB0D016624" name="usuario_veiculo_PK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<ownerDesignName>PBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90D04CDF-0A02-FF94-5A9E-E327ED3148E5"/>
+<colUsage columnID="CFC6C9AC-FE51-C669-499C-593974F5882F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4093D93-42EF-FFB6-96C3-87F9C35BA52C" name="possuir_usuario_FK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>A30B3229-FD7C-529C-D9B8-7B274F5E1C17</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90D04CDF-0A02-FF94-5A9E-E327ED3148E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F71A6572-D96A-88CD-B0EC-A894A831CB16" name="possuir_veiculo_FK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>A30B3229-FD7C-529C-D9B8-7B274F5E1C17</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFC6C9AC-FE51-C669-499C-593974F5882F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

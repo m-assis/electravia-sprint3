@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relacionarv2" directorySegmentName="seg_0" id="C4693F68-F2E2-1EEC-615F-7B266342CD67">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:15:43 UTC</createdTime>
+<ownerDesignName>PBL</ownerDesignName>
+<engineerTo>
+<item key="C1AF64E2-9715-3C7E-92B8-DA9C394A42EF" value="true"/>
+<item key="3C908160-F22C-3A2E-64A6-620AE2206EDF" value="true"/>
+<item key="0D00E960-FC83-9253-7FE9-42450E710B97" value="true"/>
+</engineerTo>
+<sourcePk>A6442530-1ABC-B515-8EFA-E267924D2E24</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8D384D65-E0F5-F19E-5CAE-B691F3F16B4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>409009C5-884B-C690-9063-26BBF36C4671</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

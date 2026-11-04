@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="921156C9-4546-98FC-8F08-A869F73D9A57" name="endereco">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>1F6127FA-EC90-8919-E39E-CDF6F541DF32</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_postal" id="E4ACCFBD-0141-5B59-105B-558AE3ABD47E">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>B6958C10-FE8B-AEFF-97AB-A48B481C4AB3</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_criacao" id="A9BBA336-3C2B-764B-FE54-E780B3A26BE0">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>3655EE59-4902-C874-D90A-09A84C92F592</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<defaultValue>GETDATE()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_criacao" id="53DC818D-8B79-A5D9-1C3F-9E3E728EC5C8">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>36882F22-2A9D-7C49-4F39-ACA00EEC4F0D</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_atualizacao" id="751C1354-2C05-4B27-5C00-A8E64A466D72">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>09BB346B-6F5E-2D7C-A0FB-0FF341FD432F</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_atualizacao" id="4E60E0D5-E707-1E72-137A-83AFA9C2BBC1">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>D3D822F7-87A6-B80F-B88E-15F4E66AEFEA</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_ativo" id="F22BA238-BFAD-0918-9DAE-D3D7F127847E">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>E308EC84-D9D8-A67D-208B-1B3A3DC1351C</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_endereco" id="84B73B2F-BD5B-726D-E4C6-B6D8B86D8157">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>784AE63E-626E-5557-5E93-EC73BF7BADD2</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento_endereco" id="E4E23F23-7D5B-4595-F32A-C1A5A13A8282">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>E2D0E2AD-5E42-59F2-F7C3-321374013A54</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_local" id="33DE8740-1851-EDB9-D198-8D9AF31F93CC">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>B1145B53-21D6-B860-8A5A-8C820FE9FE10</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="2FE78D08-6278-FA05-155D-833391B67C9F">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>4C8DC0ED-0065-7227-8227-2DB3DCAAA497</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="293FA819-310B-2125-FA6F-FA23A5C8B44A">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>67E41F0B-2EA5-FEF1-DF8B-E7947F6647B3</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_endereco" id="62D73FB3-9207-1330-E9B9-31902DE1D282">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 23:23:37 UTC</createdTime>
+<generatorID>5D1AC2D5-B30F-CE2D-1413-E7E61E82BECE</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC532228-1954-9629-EB03-0B8685BC0BEE" name="endereco_PK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>615AC48A-D4BF-F4AB-CF37-ECA35199B641</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62D73FB3-9207-1330-E9B9-31902DE1D282"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF1AB948-686E-AAFB-3CD6-24C24E4F830A" name="endereco_codigo_postal_pais_estado_numero_endereco_complemento_endereco_UN">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>7E875558-CE14-B8E3-B3F5-55154CA06F93</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4ACCFBD-0141-5B59-105B-558AE3ABD47E"/>
+<colUsage columnID="2FE78D08-6278-FA05-155D-833391B67C9F"/>
+<colUsage columnID="293FA819-310B-2125-FA6F-FA23A5C8B44A"/>
+<colUsage columnID="84B73B2F-BD5B-726D-E4C6-B6D8B86D8157"/>
+<colUsage columnID="E4E23F23-7D5B-4595-F32A-C1A5A13A8282"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

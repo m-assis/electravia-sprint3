@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22517AA3-9E7B-41C6-C71F-7BBB3E74E265" name="abastecimento_veiculo">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>409009C5-884B-C690-9063-26BBF36C4671</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_abastecimento_veiculo" id="4CFE4A79-4E66-23E1-E485-ECB58A3C43FF">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>03DC8448-8865-9386-98CD-E9F3096F9EC4</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="veiculo_id_veiculo" id="AC9D4E20-FACA-33C2-AD07-FBBB5ABF9AE0">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>A00D0BD2-3837-C29C-132F-2E22847D8011</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B34D0E8E-37CC-11D2-5E4C-69B548BD8777" referredColumn="60204276-F922-8B74-4BF8-1EF16BE76F42"/>
+</associations>
+</Column>
+<Column name="abastecimento_id_abastecimento" id="DDED272A-0225-D30E-D3DA-08BF652667B3">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>C85F2555-EC5B-C011-901A-25DD087DAD7A</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="186152BD-D4F5-71E4-9D1C-10C60203C9EC" referredColumn="FB2FDB1F-FEC7-F11F-D5E4-79F757CAE03E"/>
+</associations>
+</Column>
+<Column name="data_criacao" id="AA7A2534-BE34-D88B-2A40-6A19172A128E">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>DEA9210C-E3B1-0F87-7E6E-1078B0A81836</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<defaultValue>GETDATE()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_criacao" id="F2F1B090-0E42-A916-4F7B-92091A5610CD">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>630D000D-1BA0-4A2F-D313-9FE9BB3F18DD</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_atualizacao" id="629B2E3D-737C-F41A-139D-410445B1A461">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>F78A6C4D-EA26-7A3F-2289-8C48D9CA0DA4</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_atualizacao" id="61DC222C-8AA7-03C0-4495-202C383A5CF2">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>89945EFD-61A3-1F7D-2B96-D7698AD3BEE1</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_ativo" id="4B54DABF-6A47-1CAB-64A5-7E08C6D60DDE">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>3C1480C5-B788-881C-CFDC-FEEE79E5CD0C</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58C0DD15-05EC-58F5-0379-080B1317BB11" name="abastecimento_veiculo_PK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>8EDE48A5-4AE9-AE63-3477-D693211D1BEF</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CFE4A79-4E66-23E1-E485-ECB58A3C43FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A35BE5B-832E-6FE9-A637-7BC5DC0EC197" name="abastecimento_veiculo_veiculo_FK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>89E7D8DC-CC04-8B99-448A-32ECD17EB0F9</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC9D4E20-FACA-33C2-AD07-FBBB5ABF9AE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="953CEFCF-3FD9-8F54-C2DB-4A28CE70AE6B" name="abastecimento_veiculo_abastecimento_FK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>C4693F68-F2E2-1EEC-615F-7B266342CD67</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDED272A-0225-D30E-D3DA-08BF652667B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

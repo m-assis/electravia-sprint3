@@ -1,0 +1,300 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4E7C82E-F420-FED8-FF14-6B207FB2AD63" name="abastecimento">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>8D384D65-E0F5-F19E-5CAE-B691F3F16B4E</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_abastecimento" id="7AFD500E-EFBB-C5D1-A77E-FC3EE18454DB">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>09410129-922D-DDF0-9BA4-122F151F3313</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_id_usuario" id="E7C8B66D-38D2-25E8-E23E-938821394A62">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>CC8BF305-FF0B-5D7C-02C4-4DCE9CA1BA23</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BEDE544-14F7-68E0-7F58-D9405705C5D2" referredColumn="6567C199-00A1-F349-EFD2-8DD40667700D"/>
+</associations>
+</Column>
+<Column name="veiculo_id_veiculo" id="C10BA9CC-ABD6-86BE-ED22-72C1E575A917">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>A3390A51-CB99-A178-B931-DAB325EBBF04</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBCD68B2-2611-EFFA-73C3-51AB8A210AEA" referredColumn="63EFEFB3-DAE5-5528-F0D8-6A0B817F2EC1"/>
+</associations>
+</Column>
+<Column name="bomba_abastecimento_id_bomba_abastecimento" id="7CD334C5-8761-095F-2BE8-4EADFF379CE1">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>8280EABE-7E44-19DC-FB8E-0F93C2C91899</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8326E837-96E4-F1AB-FF90-90AA1C8754F9" referredColumn="F0C0E5D6-1CC0-0930-26EA-3FB7AD2B4512"/>
+</associations>
+</Column>
+<Column name="status_id_status" id="8413F47B-A046-45E8-F83D-64A88FE2C159">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>32A5C53D-C92E-2D71-176B-0B748F564E93</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9DF9BCF-97F6-0116-DA4D-CEF5BA0F73F8" referredColumn="354040BE-1BF2-0276-6FB1-5D25FD122401"/>
+</associations>
+</Column>
+<Column name="data_criacao" id="47C96FA7-814F-B1C8-549D-2625D8128347">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>798D9293-F2DA-9B95-AA8D-7C34B8D14C42</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<defaultValue>GETDATE()</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_criacao" id="84F38E2E-9694-BA59-3C24-EBAF5F2E2B3E">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>157CD9DA-DE6B-72B2-A8B1-BE528A43EBBD</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_atualizacao" id="BA42A042-6A6E-7108-D86E-E8019BC25AC6">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>23E2D51C-07D3-CE1D-3767-D056C25A716A</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_atualizacao" id="B268A24F-2E04-9C20-246D-B55E78306B1E">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>C7B3F960-D32E-7F83-79D9-82D3FC1882BE</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_inicio" id="2FE188E4-0DF1-64B4-6740-B4FEB467C380">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>E93C5CF3-71BC-4315-5BED-7322F3ADB3C9</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_termino" id="449A8063-84CE-BC49-C5F3-E58347606623">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>047EC35D-7B14-AF74-D032-A477BAA0C524</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_abastecida" id="862109A7-5B92-1707-1F11-9C45678A34E8">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>132C349C-111C-3359-E5A1-1221D3E14A7B</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_kw" id="9A65A136-0AD0-755D-8187-567FFB02AF44">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>F6EC43D0-18A4-D3A8-669C-3E5B2FEEAB31</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_pago" id="ACECBA0C-2139-0A92-39D4-F9B8DDBE6CE0">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>5999F601-E061-3BD8-064A-8EAC3AE2EE4F</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="forma_pagamento" id="64FB1B1F-8338-78B4-3F93-27B91D7A7B13">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>391E5272-A4B7-18D1-16D9-0363DC111167</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_veiculo" id="EB64EA2C-DA44-01E9-86C4-4291D01AA74A">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:17:25 UTC</createdTime>
+<generatorID>C2CBC711-8DDD-01E2-832C-459FA5D91859</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3C44157-FE4C-A7F3-7684-B406F289A609" name="abastecimento_PK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>A6442530-1ABC-B515-8EFA-E267924D2E24</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AFD500E-EFBB-C5D1-A77E-FC3EE18454DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A461B0A4-7994-A0E7-E4D7-65DD56764735" name="abastecimento__IDX">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<ownerDesignName>PBL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5571E4BC-005F-779E-7652-0827631A2BF8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7CD334C5-8761-095F-2BE8-4EADFF379CE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44C5F83F-25F9-EBD8-E75A-2488CA2F766C" name="abastecimento_usuario_veiculo_IDX">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-10-01 00:47:35 UTC</createdTime>
+<ownerDesignName>PBL</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7C8B66D-38D2-25E8-E23E-938821394A62"/>
+<colUsage columnID="C10BA9CC-ABD6-86BE-ED22-72C1E575A917"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA719EA9-FB96-442F-3375-D50BA7E90F89" name="abastecimento_bomba_IDX">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-10-01 00:47:35 UTC</createdTime>
+<ownerDesignName>PBL</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CD334C5-8761-095F-2BE8-4EADFF379CE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51643667-3D88-33D3-8ACC-86991D074E79" name="abastecimento_status_FK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>E6DBFC40-6EEB-BA77-C533-03B6D6545A2B</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8413F47B-A046-45E8-F83D-64A88FE2C159"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F11B3B59-B414-E60A-BE2D-AB54E73F80B7" name="abastecimento_veiculo_FK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>326325F1-7ABF-C09C-B104-37BCBFD25BE4</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C10BA9CC-ABD6-86BE-ED22-72C1E575A917"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96E7047D-1C97-F0DF-7D54-CA8067251224" name="abastecimento_usuario_FK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>69E4C836-A634-8856-5971-5B7B82F15EF3</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7C8B66D-38D2-25E8-E23E-938821394A62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7FD2F56-58FC-044D-7597-4DA82068871F" name="abastecimento_bomba_abastecimento_FK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-09-30 22:59:22 UTC</createdTime>
+<generatorID>5571E4BC-005F-779E-7652-0827631A2BF8</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CD334C5-8761-095F-2BE8-4EADFF379CE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

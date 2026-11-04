@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6E8184B-DB59-F6B4-B3E0-707EAC8581F6" containerWithKeyObject="431A423C-81B7-EF9C-9950-6D121BBEDBC6" localFKIndex="2B90271A-58B1-AC29-8A77-B74CEE8A81AB" name="bomba_abastecimento_posto_abastecimento_FK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>4C7D823D-576A-BEE4-656A-CDCC6C6948B6</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<referredTableLongName>posto_abastecimento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13185EE7-AFC2-353D-FA58-ADB47539D333</referredTableID>
+<keyObject>06F88B4A-B4A4-508B-F64D-2B2D8D62735F</keyObject>
+<referredKeyID>06F88B4A-B4A4-508B-F64D-2B2D8D62735F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numero_identificacao_fiscal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

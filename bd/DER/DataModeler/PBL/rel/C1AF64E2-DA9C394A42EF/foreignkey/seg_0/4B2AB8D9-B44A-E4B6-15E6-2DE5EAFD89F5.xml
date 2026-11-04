@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4B2AB8D9-B44A-E4B6-15E6-2DE5EAFD89F5" containerWithKeyObject="CFA085B5-3D03-0EF8-5551-17A39ED2E5C2" localFKIndex="2832A747-8534-9D85-F694-82BE9A845011" name="possuir_veiculo_FK">
+<createdBy>Gueto</createdBy>
+<createdTime>2026-11-04 00:19:46 UTC</createdTime>
+<generatorID>A30B3229-FD7C-529C-D9B8-7B274F5E1C17</generatorID>
+<ownerDesignName>PBL</ownerDesignName>
+<referredTableLongName>veiculo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ABA55B10-3FC1-2F23-2599-49EAADEF2A55</referredTableID>
+<keyObject>AB877807-ECDB-1BDA-11BF-5E3E9E526870</keyObject>
+<referredKeyID>AB877807-ECDB-1BDA-11BF-5E3E9E526870</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_veiculo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
