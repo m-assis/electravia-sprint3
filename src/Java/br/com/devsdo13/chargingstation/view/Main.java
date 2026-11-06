@@ -15,7 +15,6 @@ import br.com.devsdo13.chargingstation.model.PostoAbastecimento;
 import br.com.devsdo13.chargingstation.model.Status;
 import br.com.devsdo13.chargingstation.model.Usuario;
 import br.com.devsdo13.chargingstation.model.Veiculo;
-// NOVO: Importando a exceção personalizada (você precisará criar esta classe, veja as instruções abaixo)
 import br.com.devsdo13.chargingstation.exception.RegraNegocioException;
 
 public class Main {
